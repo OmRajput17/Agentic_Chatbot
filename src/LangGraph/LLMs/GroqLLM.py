@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 
 
 class GroqLLM:
-    def __inti__(self, user_controls_input):
+    def __init__(self, user_controls_input):
         self.user_controls_input = user_controls_input
 
     def get_llm_models(self):
